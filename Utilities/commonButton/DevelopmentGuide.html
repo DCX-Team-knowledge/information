@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Button LWC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Common Button LWC</h1>
+    <p>The <strong>Common Button LWC</strong> is built as a template code implementing a configurable button component tailored for Salesforce applications.</p>
+    <h2>Key Features:</h2>
+    <ul>
+        <li><strong>Accessibility:</strong> The <code>aria-label</code> attribute is dynamically set using the <code>assistiveText</code> property, improving accessibility for screen readers.</li>
+        <li><strong>Styling:</strong> The <code>class</code> attribute binds to <code>buttonClasses</code>, allowing dynamic assignment of CSS classes for styling purposes.</li>
+        <li><strong>Interactivity:</strong> The <code>disabled</code> attribute is dynamically controlled through the <code>disabled</code> property, enabling or disabling the button as needed.</li>
+        <li><strong>Content Slotting:</strong> The <code>&lt;slot&gt;&lt;/slot&gt;</code> element allows the insertion of child nodes, enabling flexible content placement inside the button.</li>
+    </ul>
+</body>
+</html>
